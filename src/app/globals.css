@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1A1A1A;
+  --foreground: #212121;
+  --text-content: #A3A3A3;
+  --mist: #393839;
+  --highlight: #e7e7e7;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  color: white;
+  background: var(--background);
+  margin: 0;
+  padding: 0;
+  
+ 
+}
