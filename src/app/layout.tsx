@@ -7,6 +7,7 @@ import Navbar from "@/components/navbar";
 const ubuntuMono = Ubuntu_Mono({
   variable: "--font-ubuntu-mono",
   weight: ["400", "700"],
+  subsets: ["latin"],
 
 });
 
