@@ -30,6 +30,7 @@ export default function RootLayout({
       
       <body
         className={`${ubuntuMono.className} antialiased`}
+        id="__next"
       >
         <Navbar/>
         {children}

@@ -1,6 +1,8 @@
 "use client"
+import Link from 'next/link';
 import { useState} from 'react'
 import { IoCopyOutline, IoCheckmarkDone  } from "react-icons/io5";
+import { FaFacebook, FaGithub, FaInstagram } from 'react-icons/fa6';
 
 export default function Footer() {
     const [tooltip, setTooltip] = useState<string>('');
@@ -13,7 +15,7 @@ export default function Footer() {
 
 
   return (
-    <div className='flex flex-col items-center justify-center pt-28 pb-28 gap-4'>
+    <div className='flex flex-col items-center justify-center pt-28 pb-28 gap-4' id='contact'>
         <h1 className='text-xl font-bold'>Get in touch</h1>
         <p className='text-textcontent'>Let&apos;s connect! Feel free to reach out </p>
         <button 
@@ -40,6 +42,17 @@ export default function Footer() {
             
         </button>
 
+        <div className='flex flex-row gap-5 mt-1 justify-center items-center'>
+            <a href="https://github.com/mickie2k" target='_blank'>
+              <FaGithub className='text-textcontent hover:text-highlight transition duration-100 ' size={24}/>
+            </a>
+            <a href="https://www.instagram.com/iitsmickie" target='_blank'>
+              <FaInstagram className='text-textcontent hover:text-highlight transition duration-100' size={24}/>
+            </a>
+            <a href="https://www.facebook.com/tanakorn.pookongmek" target='_blank'>
+              <FaFacebook className='text-textcontent hover:text-highlight transition duration-100 ' size={24}/>
+            </a>
+        </div>
        
     </div>
   )

@@ -1,5 +1,7 @@
+import { SrcEnum } from "@/utilities/enum";
 import { ExperienceType, ProjectType, TechType } from "@/utilities/type";
-import { HTML5, CSS3, JavaScript, Java, TypeScript, PHP, Go, NextJs, TailwindCSS, Bootstrap5, ExpressJsLight, MySQL, MongoDB, SvelteJS } from "developer-icons";
+import { HTML5, CSS3, JavaScript, Java, TypeScript, PHP, Go, NextJs, TailwindCSS, Bootstrap5, ExpressJsLight, MySQL, MongoDB, SvelteJS, NestJS } from "developer-icons";
+import * as imgProj from "@/img/project"
 
 export const techStack: TechType[] = [
     {
@@ -53,6 +55,10 @@ export const techStack: TechType[] = [
         title: "ExpressJS",
     },
     {
+        img: NestJS,
+        title: "NestJS",
+    },
+    {
         img: MySQL,
         title: "MySQL",
     },
@@ -90,27 +96,59 @@ export const projects: ProjectType[] = [
         title: "Simhouse Web Application",
         description: "SimHouse is a platform designed for Simracers. It allows two main user groups owners and renters to interact seamlessly.",
         link: "",
-        stack: ["NextJS", "TailwindCSS", "ExpressJS", "MySQL"]
+        stack: ["NextJS", "TailwindCSS", "ExpressJS", "MySQL"],
+        main: true,
+        src: [{src: SrcEnum.GITHUB, link: "https://github.com/mickie2k/simhouse-frontend/", title: "Frontend"},{src: SrcEnum.GITHUB, link: "https://github.com/mickie2k/simhouse-backend/", title: "Backend"}],
+        img: [imgProj.Simhouse1,imgProj.Simhouse2,imgProj.Simhouse3,imgProj.Simhouse4,imgProj.Simhouse5,imgProj.Simhouse6,imgProj.Simhouse7,imgProj.Simhouse8,imgProj.Simhouse9]
+        
 
     },
     {
         title: "Fashion Recommendation For Ecommerce",
         description: "Developed as part of coursework to apply and optimize a Fashion Recommendation AI system, integrating it into an e-commerce clothing store website.",
         link: "",
-        stack: ["Svelte", "FastAPI"]
+        stack: ["Svelte", "FastAPI"],
+        main : true,
+        src: [{src: SrcEnum.GITHUB, link: "https://github.com/mickie2k/Fashion-Recommendation-System-Frontend-CS-KMITL", title: "Frontend"},{src: SrcEnum.GITHUB, link: "https://github.com/NongFeen/Fashion-Product-Recommendation-System", title: "Backend"}],
+        img: [imgProj.Fashion1,imgProj.Fashion2,imgProj.Fashion3,imgProj.Fashion3_1 ,imgProj.Fashion4,imgProj.Fashion5,imgProj.Fashion6]
     },
     {   
         title: "F1 Standings Mobile Application",
         description: "Displays F1 driver and constructor standings for each year, with data fetched from the Ergast API F1.",
         link: "",
-        stack: ["Kotlin", "Android Studio"]
+        stack: ["Kotlin", "Android Studio"],
+        main : true,
+      
     },
     {
         title: "Looterz Board Game Online",
         description: "The project aims to bring the existing board game to the web, enabling players to enjoy it online with friends. Project is still in progress",
         link: "",
-        stack: ["NextJS", "TailwindCSS", "Go Fiber", "MySQL"]
+        stack: ["NextJS", "TailwindCSS", "Go Fiber", "MySQL"],
+        main : true,
+        src: [{src: SrcEnum.GITHUB, link: "https://github.com/SkylabMak/LOOTERZ", title: "Frontend"},{src: SrcEnum.GITHUB, link: "https://github.com/SkylabMak/LOOTERZ_backend", title: "Backend"}],
+        img: [imgProj.Looterz1,imgProj.Looterz2,imgProj.Looterz3,imgProj.Looterz4]
 
+    },
+    {
+        title: "Dormi (Prototype)",
+        description: "This Project is subject Database and Software Engineer. Dormi is Website For Renting a Dorm with Contract. This project is a prototype. We design er-diagram and implement database on oracle. We also design the website using Figma.",
+        link: "",
+        stack: ["Figma", "Oracle"],
+        main : false,
+        src: [],
+        img: [imgProj.Dormi1,imgProj.Dormi2,imgProj.Dormi3,imgProj.Dormi4,imgProj.DormiER]
+        
+        
+    },
+    {
+        title: "Authentication System with JWT, Local Authentication and Google OAuth2 (Learning)",
+        description: "This work is an authentication system that implements both Local Authentication and Google OAuth2, using JWT tokens for session management. The goal is to learning how to utilize JWT tokens for session management with different strategies.",
+        link: "",
+        stack: ["NestJS", "PassportJS", "DrizzleORM", "MySQL"],
+        main : false,
+        src: [{src: SrcEnum.GITHUB, link: "https://github.com/mickie2k/user-management-backend", title: "Source"}],
+       
     }
 
 

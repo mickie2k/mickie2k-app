@@ -12,7 +12,7 @@ export default function Title() {
       </div>
       <div className='flex flex-col items-center'>
       <h1 className="text-2xl">Tanakorn Pookongmek</h1>
-      <span className='text-textcontent'>Fullstack Developer</span>
+      <span className='text-textcontent'>Aspiring Full-Stack Developer</span>
       </div>
   </div>
  
