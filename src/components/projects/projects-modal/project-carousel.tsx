@@ -59,7 +59,7 @@ export default function ProjectCarousel(props: ProjectCarouselProps) {
           <div className="embla__container">
             {slides?.map((img,index) => (
               <div className="embla__slide" key={index}>
-                <div className="embla__slide__number"> <Image src={img} width={1920}   alt={`img-${props.data.title}-${index}`} /></div>
+                <div className="embla__slide__number"> <Image src={img} width={900}   alt={`img-${props.data.title}-${index}`} /></div>
               </div>
             ))}
           </div>
