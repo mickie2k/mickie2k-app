@@ -1,7 +1,5 @@
 import React from "react";
-import { projects } from "@/store/data";
-import ContentHeader from "@/components/contentHeader";
-import Projectcard from "../projectcard";
+
 import { ProjectType } from "@/utilities/type";
 import ProjectTechstack from "../projecttechstack";
 import { EmblaOptionsType } from "embla-carousel";

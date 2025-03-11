@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 
 import { ProjectType } from "@/utilities/type";
-import styles from './styles.module.css'
+
 import Image from "next/image";
 
 import { EmblaOptionsType, EmblaCarouselType } from 'embla-carousel'

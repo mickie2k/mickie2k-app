@@ -7,6 +7,7 @@ import { CiGlobe } from "react-icons/ci";
 
 import { SrcEnum } from '@/utilities/enum';
 import { FaGithub,FaFigma } from 'react-icons/fa';
+import { IconType } from 'react-icons';
 
 
 
@@ -19,7 +20,7 @@ interface ProjectSrcProps {
 export default function ProjectSrc(props: ProjectSrcProps) {
 
 
-  const srcEnumMap = new Map<SrcEnum, React.ComponentType<any>>([
+  const srcEnumMap = new Map<SrcEnum, IconType>([
     [SrcEnum.GITHUB, FaGithub],
     [SrcEnum.WEBSITE, CiGlobe],
     [SrcEnum.FIGMA, FaFigma],
