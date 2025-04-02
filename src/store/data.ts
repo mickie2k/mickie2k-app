@@ -132,7 +132,7 @@ export const projects: ProjectType[] = [
     },
     {
         title: "Dormi (Prototype)",
-        description: "This Project is subject Database and Software Engineer. Dormi is Website For Renting a Dorm with Contract. This project is a prototype. We design er-diagram and implement database on oracle. We also design the website using Figma.",
+        description: "This Project is a part of Database and Software Engineer course. Dormi is Website For Renting a Dorm with Contract. This project is a prototype. We design er-diagram and implement database on oracle. We also design the website using Figma.",
         link: "",
         stack: ["Figma", "Oracle"],
         main : false,
@@ -142,12 +142,16 @@ export const projects: ProjectType[] = [
         
     },
     {
-        title: "Authentication System with JWT, Local Authentication and Google OAuth2 (Learning)",
+        title: "Blog Application with Authentication System: JWT, Local and Google OAuth2",
         description: "This work is an authentication system that implements both Local Authentication and Google OAuth2, using JWT tokens for session management. The goal is to learning how to utilize JWT tokens for session management with different strategies.",
         link: "",
         stack: ["NestJS", "PassportJS", "DrizzleORM", "MySQL"],
         main : false,
-        src: [{src: SrcEnum.GITHUB, link: "https://github.com/mickie2k/user-management-backend", title: "Source"}],
+        src: [
+            {src: SrcEnum.WEBSITE, link:"https://blog.mickie2k.com", title: "Website"},
+            {src: SrcEnum.GITHUB, link: "https://github.com/mickie2k/blog-webapplication-frontend", title: "Frontend"},
+            {src: SrcEnum.GITHUB, link: "https://github.com/mickie2k/blog-webapplication-backend", title: "Backend"}
+        ],
        
     }
 
