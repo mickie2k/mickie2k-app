@@ -127,14 +127,7 @@ export const projects: ProjectType[] = [
         description:
             "Built an Airbnb-style C2C marketplace for sim-racing where owners can list simulators and set pricing while renters can discover, book, and review nearby simulators. Added interactive location discovery with Google Maps API and country-wide filtering, integrated Google OAuth2 for secure login, and implemented direct client-to-S3 image uploads with pre-signed URLs for scalable media handling.",
         link: "",
-        stack: [
-            "NextJS",
-            "NestJS",
-            "PrismaORM",
-            "PostgreSQL",
-            "Amazon S3",
-            "Google Maps API",
-        ],
+        stack: ["NextJS", "NestJS", "PrismaORM", "PostgreSQL", "Amazon S3"],
         main: true,
         src: [
             {
