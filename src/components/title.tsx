@@ -8,13 +8,13 @@ export default function Title() {
         <Image src={mickie2k}
           width={200}
           height={200}
-          alt="Picture of the author"/>
+          alt="Picture of the author" />
       </div>
       <div className='flex flex-col items-center'>
-      <h1 className="text-2xl">Tanakorn Pookongmek</h1>
-      <span className='text-textcontent'>Aspiring Full-Stack Developer</span>
+        <h1 className="text-2xl">Tanakorn Pookongmek</h1>
+        <span className='text-textcontent'>Software Engineer | Computer Science Student at KMITL</span>
       </div>
-  </div>
- 
+    </div>
+
   )
 }

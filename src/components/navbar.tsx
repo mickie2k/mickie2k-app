@@ -14,7 +14,7 @@ export default function Navbar() {
       </Link>
       <div className='flex flex-row gap-2 items-center'>
         <Link href="/projects" className='flex justify-center px-5 text-highlight bg-foreground py-2 items-center rounded-lg transition hover:bg-mist duration-100 hover:scale-105'>
-          <span className='text-base '>All Works</span>
+          <span className='text-base '>Projects</span>
       </Link>
      
       </div>
