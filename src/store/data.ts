@@ -145,6 +145,7 @@ export const projects: ProjectType[] = [
             imgProj.Simhouse1,
             imgProj.Simhouse2,
             imgProj.Simhouse3,
+            imgProj.Simhouse3_1,
             imgProj.Simhouse4,
             imgProj.Simhouse5,
             imgProj.Simhouse6,
