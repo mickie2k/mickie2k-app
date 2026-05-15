@@ -155,6 +155,27 @@ export const projects: ProjectType[] = [
         ],
     },
     {
+        title: "Skrum",
+        description:
+            "A Real-time Scrum Planning Poker application designed to facilitate agile estimation sessions. The platform allows team members to create or join rooms, share their estimates in real-time, and view aggregated results to reach consensus on task complexity.",
+        link: "",
+        stack: ["NextJS", "Socket.IO", "TailwindCSS", "Motion"],
+        main: true,
+        src: [
+            {
+                src: SrcEnum.WEBSITE,
+                link: "https://skrum.mickie2k.com",
+                title: "Website",
+            },
+            {
+                src: SrcEnum.GITHUB,
+                link: "https://github.com/mickie2k/skrum-poker",
+                title: "Github",
+            },
+        ],
+        img: [imgProj.Skrum1, imgProj.Skrum2, imgProj.Skrum3],
+    },
+    {
         title: "Fashion Recommendation For Ecommerce",
         description:
             "Developed as part of coursework to apply and optimize a Fashion Recommendation AI system, integrating it into an e-commerce clothing store website.",
@@ -197,7 +218,7 @@ export const projects: ProjectType[] = [
             "The project aims to bring the existing board game to the web, enabling players to enjoy it online with friends. Project is still in progress",
         link: "",
         stack: ["NextJS", "TailwindCSS", "Go Fiber", "MySQL"],
-        main: true,
+        main: false,
         src: [
             {
                 src: SrcEnum.GITHUB,

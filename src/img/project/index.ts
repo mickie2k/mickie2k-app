@@ -35,3 +35,8 @@ export { default as Dormi2 } from "./dormi/detail.png";
 export { default as Dormi3 } from "./dormi/renter.png";
 export { default as Dormi4 } from "./dormi/owner.png";
 export { default as DormiER } from "./dormi/er.png";
+
+// Skrum
+export { default as Skrum1 } from "./skrum/skrum1.png";
+export { default as Skrum2 } from "./skrum/skrum2.png";
+export { default as Skrum3 } from "./skrum/skrum3.png";
