@@ -86,6 +86,13 @@ export const techStack: TechType[] = [
 
 export const experience: ExperienceType[] = [
     {
+        title: "Software Engineer | Skooldio Tech",
+        description: [
+            "Delivered custom AI solutions for enterprise business units to solve core workflow inefficiencies.",
+        ],
+        duration: "August 2025 - Present",
+    },
+    {
         title: "Software Engineer Intern | Omise",
         description: [
             "Researched and developed a proof-of-concept Jira-to-GitHub pull request workflow using AI tools and automation, reducing small-task development cycle time from 3 days to 1 day.",
@@ -93,7 +100,7 @@ export const experience: ExperienceType[] = [
             "Developed payment microservices for JCB, Mastercard, and Visa networks using Go, Ruby on Rails, and gRPC.",
             "Improved Visa clearing throughput by increasing batch size and resolving gRPC message-size and memory bottlenecks to support peak daily transaction volumes.",
         ],
-        duration: "June 2025 - Present",
+        duration: "June 2025 - June 2026",
     },
     {
         title: "Semi-Finalist | MED x Engineering Hackathon: Together Toward the Future",
@@ -101,7 +108,7 @@ export const experience: ExperienceType[] = [
             'Developed "Start-to-Finish", a medical screening and emergency response concept aimed at improving healthcare accessibility in underserved communities.',
             "Designed a mobile app flow featuring hospital selection, real-time bed availability tracking, and severity-based emergency triage.",
         ],
-        duration: "04.2024",
+        duration: "April 2024",
     },
     {
         title: "Frontend Developer | CSCamp16",
