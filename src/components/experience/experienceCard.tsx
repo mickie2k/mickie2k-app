@@ -35,14 +35,17 @@ export default function ExperienceCard({ data }: { data: ExperienceType }) {
             </div>
             <div ref={experienceCardRef} className='h-fit pb-8 w-full'>
                 <div className='w-full'>
-                    {data.link ?
-                        <a href={data.link} target='_blank' rel='noreferrer' className='hover:underline group'>
-                            <h1 className='flex-row flex gap-2 text-white text-base font-normal leading-4  text-wrap mb-2'>
-                                {data.title}
-                                <GoLinkExternal className='group-hover:translate-x-1 group-hover:-translate-y-1 transition' />
-                            </h1>
-                        </a> :
-                        <h1 className='text-white text-base font-normal leading-4 text-wrap mb-2'>{data.title}</h1>}
+                    <div className='flex flex-row justify-between items-start gap-4 mb-2'>
+                        {data.link ?
+                            <a href={data.link} target='_blank' rel='noreferrer' className='hover:underline group'>
+                                <h1 className='flex-row flex gap-2 text-white text-base font-normal leading-4  text-wrap'>
+                                    {data.title}
+                                    <GoLinkExternal className='group-hover:translate-x-1 group-hover:-translate-y-1 transition' />
+                                </h1>
+                            </a> :
+                            <h1 className='text-white text-base font-normal leading-4 text-wrap'>{data.title}</h1>}
+                        <span className='text-textcontent text-sm font-normal leading-4 whitespace-nowrap'>{data.duration}</span>
+                    </div>
                     <ul className='list-disc pl-4 text-textcontent font-normal text-base'>
                         {data.description.map((desc, index) => (
                             <li key={index}>{desc}</li>
